@@ -1,0 +1,27 @@
+.intro {
+
+
+    img {
+        width: 100vw;
+        height: 70vh;
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+
+        object-fit: cover;
+
+        // mask-image: url("../assets/triangle-down-svgrepo-com.svg");
+        mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+        mask-size: contain;
+        mask-repeat: no-repeat;
+
+        // -webkit-mask-image: url("../assets/triangle-down-svgrepo-com.svg");
+        -webkit-mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+        -webkit-mask-size: contain;
+        -webkit-mask-repeat: no-repeat;
+    }
+
+    
+}
