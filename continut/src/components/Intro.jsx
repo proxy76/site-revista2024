@@ -13,7 +13,7 @@ function IntroText() {
 
             <button onClick={() => {
                 setTextWidth(200)
-            }} style={{ width: textWidth }}>
+            }} >
                 Află cum poți contribui!
             </button>
 
