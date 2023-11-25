@@ -1,11 +1,25 @@
 import { useState } from "react"
+import { useScroll, useTransform, motion } from "framer-motion";
+import { useRef } from "react";
 
 function IntroText() {
 
     const [textWidth, setTextWidth] = useState(100)
 
+    const targetRef = useRef(null)
+    const { scrollYProgress } = useScroll({
+        target: targetRef,
+        offset: ["end end", "end start"],
+    })
+
+    const opacity = useTransform(scrollYProgress, [0.1, 0.5], [1, 0])
+    const scale = useTransform(scrollYProgress, [0.1, 0.5], [1, 0.8])
+
     return (
-        <div className="intro-text">
+        <motion.div 
+        ref={targetRef}
+        style={{opacity, scale}}
+        className="intro-text">
             <h2>
                 Descoperă lumile noi prin
             </h2>
@@ -17,7 +31,7 @@ function IntroText() {
                 Află cum poți contribui!
             </button>
 
-        </div>
+        </motion.div>
     )
 }
 
