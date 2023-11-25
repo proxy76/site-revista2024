@@ -67,12 +67,12 @@
     }
 
     button {
-        border: 3px antiquewhite solid;
+        border: 3px #ffc1d5 solid;
         border-radius: 5px;
         margin-top: 20px;
         width: clamp(80px, 40%, 150px);
         padding: 0.5em;
-        background-color: antiquewhite;
+        background-color: #ffc1d5;
         transition: 1s;
     }
 
