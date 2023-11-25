@@ -8,7 +8,7 @@
 
     .about-text {
         margin-right: 20px;
-        text-align: right;
+        text-align: center;
         p {
             font-size: 10px;
         }
@@ -25,6 +25,16 @@
         img {
             width: 300px;
             height: 300px;
+        }
+    }
+
+    .divider-container {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 300px;
+            height: 20px;
         }
     }
 }
