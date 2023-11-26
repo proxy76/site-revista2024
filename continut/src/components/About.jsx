@@ -16,11 +16,11 @@ export default function About() {
     const fadeInAnimationVariants = {
         initial: {
             opacity: 0,
-            x: -100,
+            y: -100,
         },
         animate: {
             opacity: 1,
-            x: 0,
+            y: 0,
             transition: {
                 delay: 0.5,
             }
@@ -52,7 +52,7 @@ export default function About() {
             initial="initial"
             whileInView="animate"
             viewport={{
-                once: false,
+                once: true,
             }}
             className="revista-container">
                 <h1>EDIȚIA 2023</h1>
