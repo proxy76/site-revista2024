@@ -1,6 +1,4 @@
-.wrapper {
-
-    height: 300vh;
+.about {
 
     .info {
         display: flex;
@@ -31,17 +29,6 @@
         }
     }
 
-    .divider-container {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-
-        img {
-            width: 300px;
-            height: 20px;
-        }
-    }
 
     .revista-container {
         padding-top: 100px;
@@ -61,49 +48,27 @@
             border-radius: 12px;
         }
 
-        p {
+        a {
             margin-top: 20px;
             max-width: 20ch;
             text-align: center;
-        }
-    }
-
-    .contribute {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0.5em;
-
-        h1 {
-            text-align: center;
-            font-size: 1.5rem;
-        }
-
-        .pl, .pr {
-            padding: 0.75em;
-            width: fit-content;
-            max-width: 65%;
+            text-decoration: none;
+            color: black;
+            border: 2px #111 solid;
+            padding: 0.5em;
             border-radius: 15px;
-            box-shadow: 2px 2px black;
-        }
-
-        .pl {
-            margin-top: 20px;
-            background-color: #AF253E;
-            padding-left: 10px;
-            align-self: flex-start;
-            
-            ul {
-                list-style: none;
-            }
-        }
-
-        .pr {
-            margin-top: 20px;
-            padding-right: 10px;
-            align-self: flex-end;
-            background-color: #837f7f;
         }
     }
+}
 
+.divider-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    img {
+        width: 300px;
+        height: 20px;
+    }
 }
