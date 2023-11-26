@@ -3,8 +3,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
 
-
-
     return (
         <div className='header'>
             <div className="icon">

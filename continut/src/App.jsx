@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Intro />
       <About />
+
     </div>
   )
 }
