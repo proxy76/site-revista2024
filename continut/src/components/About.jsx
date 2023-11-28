@@ -42,27 +42,29 @@ export default function About() {
                 <img src="./divider.png" />
             </div>
 
-            <motion.div ref={targetRef} style={{opacity, scale}} className="about-text">
-                <h1>DESPRE</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim dolore! Repellendus veniam commodi unde quod illo id dignissimos possimus nisi recusandae harum voluptatum repudiandae similique deleniti deserunt, eum, corrupti vitae fuga dolores, magni consequuntur? Aliquam quas reprehenderit aspernatur neque voluptate totam perferendis eum eos debitis ullam. Ipsam, recusandae ducimus.</p>
-            </motion.div>
-
-            <motion.div
-            variants={fadeInAnimationVariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{
-                once: true,
-            }}
-            className="revista-container">
-                <h1>EDIȚIA 2023</h1>
-                <motion.img 
-                //ref={targetRef}
-                //style={{scale}}
-                src="./coperta.png" alt="" />
-                <a href='../assets/Carte4.pdf' download>Descărcați revista în varianta digitală</a>
-            </motion.div>
-
+            <div className="aboutSection">
+                
+                <motion.div ref={targetRef} style={{opacity, scale}} className="about-text">
+                    <h1>DESPRE</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim dolore! Repellendus veniam commodi unde quod illo id dignissimos possimus nisi recusandae harum voluptatum repudiandae similique deleniti deserunt, eum, corrupti vitae fuga dolores, magni consequuntur? Aliquam quas reprehenderit aspernatur neque voluptate totam perferendis eum eos debitis ullam. Ipsam, recusandae ducimus.</p>
+                </motion.div>
+                <motion.div
+                variants={fadeInAnimationVariants}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                    once: true,
+                }}
+                className="revista-container">
+                    <h1>EDIȚIA 2023</h1>
+                    <motion.img
+                    //ref={targetRef}
+                    //style={{scale}}
+                    src="./coperta.png" alt="" />
+                    <a href='../assets/Carte4.pdf' className="regBtn" download>Descărcați revista în varianta digitală</a>
+                </motion.div>
+            </div>
+            
             <div className="divider-container">
                 <img src="./divider.png" />
             </div>
