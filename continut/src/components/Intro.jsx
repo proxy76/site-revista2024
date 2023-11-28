@@ -25,7 +25,7 @@ function IntroText({takeToContribute}) {
             </h2>
             <h1>PERSPECTIVE</h1>
 
-            <button onClick={() => {
+            <button className="button" onClick={() => {
                 setTextWidth(200);
                 takeToContribute();
             }} >
