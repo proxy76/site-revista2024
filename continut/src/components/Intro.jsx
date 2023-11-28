@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 
-function IntroText() {
+function IntroText({takeToContribute}) {
 
     const [textWidth, setTextWidth] = useState(100)
 
@@ -26,7 +26,8 @@ function IntroText() {
             <h1>PERSPECTIVE</h1>
 
             <button onClick={() => {
-                setTextWidth(200)
+                setTextWidth(200);
+                takeToContribute();
             }} >
                 Află cum poți contribui!
             </button>
@@ -35,10 +36,10 @@ function IntroText() {
     )
 }
 
-export default function Intro() {
+export default function Intro({takeToContribute}) {
     return (
         <div className="intro">
-            <IntroText className="intro-text" />
+            <IntroText takeToContribute={takeToContribute} className="intro-text" />
             <div className="intro-color-mask"/>
             <img className="intro-bgimg" src="./coperta1.png" />
         </div>
