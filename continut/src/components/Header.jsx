@@ -7,7 +7,7 @@ function Header({showMenu}) {
             <div className="icon">
             </div>
             <span className='title'>Perspective</span>
-            <GiHamburgerMenu onClick={showMenu} className="hamburger" size={30} />
+            {/* <GiHamburgerMenu onClick={showMenu} className="hamburger" size={30} /> */}
         </div>
     )
 };
