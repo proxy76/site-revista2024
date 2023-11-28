@@ -1,5 +1,8 @@
 .about {
     z-index: 3;
+
+    background: linear-gradient(white 23%, rgb(255, 164, 193) 90%);
+
     .info {
         display: flex;
         justify-content: center;
@@ -34,7 +37,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
     img {
         width: 300px;
@@ -88,4 +91,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 100px;
+    background: linear-gradient(white 10%, rgb(255, 198, 216) 70%, white);
 }
