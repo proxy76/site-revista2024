@@ -1,6 +1,8 @@
 .chat {
     z-index: 3;
     width: 100%;
+    background: linear-gradient(rgb(255, 164, 193), white 90%);
+
     .contribute {
         display: flex;
         justify-content: center;
@@ -23,7 +25,7 @@
 
         .pl {
             margin-top: 20px;
-            background-color: rgba(158, 0, 50, 0.8);
+            background-color: rgba(210, 0, 66, 0.8);
             padding-left: 10px;
             align-self: flex-start;
             
@@ -36,7 +38,7 @@
             margin-top: 20px;
             padding-right: 10px;
             align-self: flex-end;
-            background-color: #ffc1d5;
+            background-color: #ff92b5;
         }
     }
 }
