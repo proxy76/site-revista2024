@@ -1,0 +1,40 @@
+.menu {
+    z-index: 4;
+    width: 30%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    .menuContent {
+        position: fixed;
+        height: 100%;
+        width: 30%;
+        border-left: 40px solid rgb(158, 0, 50);
+        background: white;
+
+        .section {
+            padding: 1em 0;
+            color: rgb(158, 0, 50);
+            border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+            width: 100%;
+
+            p {
+                padding: 0.5em;
+                font-family: cursive;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+
+        .closeMenu {
+            position: relative;
+            font-size: 20px;
+            color: rgb(158, 0, 50);
+        }
+
+        .section:hover {
+            background: rgb(158, 0, 50);
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

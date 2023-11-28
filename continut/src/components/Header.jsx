@@ -1,16 +1,15 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 
 
-function Header() {
-
+function Header({showMenu}) {
     return (
         <div className='header'>
             <div className="icon">
             </div>
             <span className='title'>Perspective</span>
-            <GiHamburgerMenu className="hamburger" size={30} />
+            <GiHamburgerMenu onClick={showMenu} className="hamburger" size={30} />
         </div>
     )
-}
+};
 
 export default Header;

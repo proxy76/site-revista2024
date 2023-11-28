@@ -1,4 +1,5 @@
 .chat {
+    z-index: 3;
     width: 100%;
     .contribute {
         display: flex;
@@ -12,16 +13,17 @@
         }
 
         .pl, .pr {
-            padding: 0.75em;
+            padding: 0.5em;
+            font-size: 0.9rem;
             width: fit-content;
-            max-width: 65%;
+            max-width: 55%;
             border-radius: 15px;
             box-shadow: 2px 2px black;
         }
 
         .pl {
             margin-top: 20px;
-            background-color: #AF253E;
+            background-color: rgba(158, 0, 50, 0.8);
             padding-left: 10px;
             align-self: flex-start;
             
@@ -34,7 +36,7 @@
             margin-top: 20px;
             padding-right: 10px;
             align-self: flex-end;
-            background-color: #837f7f;
+            background-color: #ffc1d5;
         }
     }
 }
