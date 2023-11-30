@@ -107,6 +107,21 @@
 
 @media (min-width: 1000px) {
     .about-text p {
-        font-size: 0.9rem !important;
+        font-size: 1.1rem !important;
     }
+
+    .form {
+        img {
+            width: 15%;
+        }
+    }
+
+    .divider-container {
+    
+        img {
+            width: 450px;
+            height: 30px;
+        }
+    }
+    
 }

@@ -1,4 +1,4 @@
-import { forwardRef} from 'react';
+import { forwardRef } from 'react';
 
 import About from './About.jsx';
 import Chat from './Chat.jsx';
