@@ -18,4 +18,26 @@
     .echipa {
         text-align: right;
     }
+
+    .contact {
+        img {
+            width: 20px;
+            position: relative;
+            top: 3px;
+            right: 2px;
+        }
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .footer {
+        .echipa {
+            text-align: center;
+        }
+        .contact {
+            text-align: right;
+        }
+    }
+    
 }
