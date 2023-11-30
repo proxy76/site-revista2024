@@ -42,3 +42,22 @@
         }
     }
 }
+
+@media (min-width: 1000px) {
+    .chat {
+        .contribute {
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 50px;
+            }
+
+            .pl, .pr {
+                padding: 0.5em;
+                font-size: 1.1rem;
+                width: fit-content;
+                max-width: 55%;
+                border-radius: 15px;
+            }
+        }
+    }
+}
