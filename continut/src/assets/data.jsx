@@ -23,7 +23,7 @@ export default [
     {
         id: 5,
         class: "pl",
-        text: "File de litertură, File de știință, Dincolo de învățătură, Colțul talentelor",
+        text: "File de litertură, File de știință, Dincolo de învățătură, Colțul talentelor, Valorile CNNG",
     },
     {
         id: 6,
@@ -36,23 +36,13 @@ export default [
         text: "Este recomandată originalitatea, însă subiectul trebuie să fie încadrat în categoriile date.",
     },
     {
-        id: 8,
-        class: "pr",
-        text: "De unde știu că articolul nu a fost deja abordat?",
-    },
-    {
-        id: 9,
-        class: "pl",
-        text: "TABEL DE ADAUGAT!!",
-    },
-    {
         id: 10,
         class: "pr",
-        text: "Pot să scriu cu un prieten?",
+        text: "Cum pot afla mai multe informații?",
     },
     {
         id: 11,
         class: "pl",
-        text: "Da, poți să scrii împreună cu un prieten. Totuși, te rugăm să nu faci grupe de mai mult de 2 persoane, pentru a pune în valoare contribuția fiecărui autor!",
+        text: "Dacă ai vreo nelămurire, contactează-ne folosind informațiile din subsolul paginii.",
     },
 ]

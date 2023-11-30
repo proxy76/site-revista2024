@@ -20,11 +20,19 @@
     }
 
     .contact {
-        img {
+
+        .wapp {
             width: 20px;
             position: relative;
             top: 3px;
             right: 2px;
+        }
+
+        .email {
+            width: 20px;
+            position: relative;
+            top: 5px;
+            right: 3px;
         }
     }
 

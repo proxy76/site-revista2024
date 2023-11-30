@@ -31,7 +31,7 @@ export default function About() {
         <div className="about">
             
             <div className="info">
-                <h1>INFORMAȚII</h1>
+                <h1>DETALII</h1>
             </div>
 
             <div className="photo-container">

@@ -25,11 +25,15 @@ function Footer() {
                 Soare Delia
             </div>
             <div className="contact">
-                <img src="./wapp.png" alt="" />
+                
                 <b>
                     Contact 
                     <br></br>
+                    <img className="wapp" src="./wapp.png" alt="" />
                     +40 726 099 792
+                    <br></br>
+                    <img className="email" src="./email.png" alt="" />
+                    revista.perspective@cnng.ro
                 </b>
             </div>
         </div>
