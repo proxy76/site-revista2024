@@ -105,6 +105,10 @@
     background:transparent;
 }
 
+.form img {
+    width: clamp(200px, 20%, 650px);
+}
+
 @media (min-width: 1000px) {
     .about-text p {
         font-size: 1.1rem !important;
