@@ -13,12 +13,12 @@ export default [
     {
         id: 3,
         class: "pl",
-        text: "Fă research despre un anumit subiect care se încadrează în categoriile revistei și realizează un articol în Word, eventual însoțit de poze.",
+        text: "Fă research despre un anumit subiect care se încadrează în secțiunile revistei și realizează un articol în Word, eventual însoțit de poze.",
     },
     {
         id: 4,
         class: "pr",
-        text: "Care sunt categoriile de anul acesta?",
+        text: "Care sunt secțiunile de anul acesta?",
     },
     {
         id: 5,
@@ -34,6 +34,16 @@ export default [
         id: 7,
         class: "pl",
         text: "Este recomandată originalitatea, însă subiectul trebuie să fie încadrat în categoriile date.",
+    },
+    {
+        id: 8,
+        class: "pr",
+        text: "Ce criterii trebuie să am în considerare în redactarea articolului?"
+    },
+    {
+        id: 9,
+        class: "pl",
+        text: `Documentul trimis trebuie să fie scris cu diacritice, font Times New Roman, dimensiunea 11. Articolele într-o limbă străină (engleză / germană / franceză) sunt acceptate doar pentru secțiunea "File de literatură". Limita de cuvinte este de 750 cuvinte.`
     },
     {
         id: 10,
