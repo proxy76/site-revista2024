@@ -6,19 +6,15 @@
     align-items: center;
     padding: 1.5em;
     height: 70px;
-    
+    position: relative;
     z-index: 2;
 
     .title {
+        z-index: 4;
         font-size: 1.5rem;
         text-transform: uppercase;
         font-family: 'EB Garamond', serif;
         font-weight: 600;
-        color: #fff;
-    }
-
-    .hamburger {
-        cursor: pointer;
         color: #fff;
     }
 }

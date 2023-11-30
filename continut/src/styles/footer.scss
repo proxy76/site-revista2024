@@ -20,7 +20,7 @@
     }
 
     .contact {
-
+        text-align: right;
         .wapp {
             width: 20px;
             position: relative;
@@ -40,6 +40,9 @@
 
 @media (min-width: 1000px) {
     .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 1.5em 2.5em;
         .echipa {
             text-align: center;
         }
@@ -48,4 +51,10 @@
         }
     }
     
+}
+
+@media (max-width: 550px) {
+    .contact {
+        text-align: center !important;
+    }
 }
