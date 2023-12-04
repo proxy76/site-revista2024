@@ -40,19 +40,21 @@ function Chat() {
                 {
                     faqData.map(chat => {
                         if (chat.class === "pl") {
-                            return (
-                                <motion.p 
-                                variants={fadeInAnimationVariants1}
-                                initial="initial"
-                                whileInView="animate"
-                                viewport={{
-                                    once: true,
-                                }}
-                                className={chat.class}>
-                                    {chat.text}
-                                </motion.p>
-                            )
-                        } else {
+                                return (
+                                    <motion.p 
+                                    variants={fadeInAnimationVariants1}
+                                    initial="initial"
+                                    whileInView="animate"
+                                    viewport={{
+                                        once: true,
+                                    }}
+                                    className={chat.class}
+                                    >
+                                        {chat.text}
+                                    </motion.p>
+                                )
+                            }
+                         else {
                             return (
                                 <motion.p 
                                 variants={fadeInAnimationVariants2}

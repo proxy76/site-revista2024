@@ -23,35 +23,56 @@ export default [
     {
         id: 5,
         class: "pl",
-        text: "File de litertură, File de știință, Dincolo de învățătură, Colțul talentelor, Valorile CNNG",
+        text: `File de literatură`
     },
     {
         id: 6,
-        class: "pr",
-        text: "Am libertate totală de exprimare?",
+        class: "pl",
+        text: 'File de știință'
     },
     {
         id: 7,
         class: "pl",
-        text: "Este recomandată originalitatea, însă subiectul trebuie să fie încadrat în categoriile date.",
+        text: 'Dincolo de învățătură'
     },
     {
         id: 8,
-        class: "pr",
-        text: "Ce criterii trebuie să am în considerare în redactarea articolului?"
+        class: "pl",
+        text: 'Colțul talentelor'
+
     },
     {
         id: 9,
         class: "pl",
-        text: `Documentul trimis trebuie să fie scris cu diacritice, font Times New Roman, dimensiunea 11. Articolele într-o limbă străină (engleză / germană / franceză) sunt acceptate doar pentru secțiunea "File de literatură". Limita de cuvinte este de 750 cuvinte.`
+        text: 'Valorile CNNG'
     },
     {
         id: 10,
         class: "pr",
-        text: "Cum pot afla mai multe informații?",
+        text: "Am libertate totală de exprimare?",
     },
     {
         id: 11,
+        class: "pl",
+        text: "Este recomandată originalitatea, însă subiectul trebuie să fie încadrat în secțiunile date.",
+    },
+    {
+        id: 12,
+        class: "pr",
+        text: "Ce criterii trebuie să am în considerare în redactarea articolului?"
+    },
+    {
+        id: 13,
+        class: "pl",
+        text: `Documentul trimis trebuie să fie scris cu diacritice, font Times New Roman, dimensiunea 11. Articolele într-o limbă străină (engleză / germană / franceză) sunt acceptate doar pentru secțiunea "File de literatură". Limita de cuvinte este de 750 cuvinte.`
+    },
+    {
+        id: 14,
+        class: "pr",
+        text: "Cum pot afla mai multe informații?",
+    },
+    {
+        id: 15,
         class: "pl",
         text: "Dacă ai vreo nelămurire, contactează-ne folosind informațiile din subsolul paginii.",
     },
