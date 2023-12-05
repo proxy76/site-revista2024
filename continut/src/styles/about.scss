@@ -143,8 +143,7 @@
     }
 
     .about-text span {
-        font-size: 1.1rem !important;
-        animation: slide-pc 15s linear infinite;
+        font-size: 0.7rem !important;
     }
 
     .form {
@@ -159,11 +158,6 @@
             width: 450px;
             height: 30px;
         }
-    }
-
-    @keyframes slide-pc {
-        0% {transform: translate(0, 0);}
-        100% {transform: translate(-20%, 0);}
     }
 
 }
