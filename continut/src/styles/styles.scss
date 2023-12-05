@@ -41,6 +41,7 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     grid-template-rows: 50px 1fr 50px;
+    overflow: hidden;
 }
 
 ::selection {
