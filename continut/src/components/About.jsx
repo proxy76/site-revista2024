@@ -46,7 +46,14 @@ export default function About() {
                 
                 <motion.div ref={targetRef} style={{opacity, scale}} className="about-text">
                     <h1>DESPRE</h1>
+
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, enim dolore! Repellendus veniam commodi unde quod illo id dignissimos possimus nisi recusandae harum voluptatum repudiandae similique deleniti deserunt, eum, corrupti vitae fuga dolores, magni consequuntur? Aliquam quas reprehenderit aspernatur neque voluptate totam perferendis eum eos debitis ullam. Ipsam, recusandae ducimus.</p>
+
+                    <div className="carusel">
+                        <span>Privire generală &#x2022; Fel particular de a vedea lucrurile &#x2022; Puncte de vedere &#x2022; Ceea ce se întrevede ca fiind posibil în viitor &#x2022; Anul 2001 - apare primul număr &#x2022; Anul 2024 - va apărea numărul 27</span>
+                    </div>
+
+                    
                 </motion.div>
                 <motion.div
                 variants={fadeInAnimationVariants}

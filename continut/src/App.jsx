@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='content'>
-      <Header  />
+      <Header />
       <Main ref={contributeRef} takeToContribute={takeToContribute} />
       <Footer />
     </div>
