@@ -35,7 +35,7 @@ function Chat() {
     return (
         <div className='chat'>
             <div className="contribute">
-                <h1>Vrei să impărtășești ceva cu comunitatea?</h1>
+                <h1>Vrei să împărtășești ceva cu comunitatea?</h1>
 
                 {
                     faqData.map(chat => {
