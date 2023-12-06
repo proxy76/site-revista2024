@@ -112,7 +112,7 @@
 
 .form {
     padding-bottom: 50px;
-    background: linear-gradient(white 10%, rgb(255, 192, 212) 40%, white);
+    background: linear-gradient(white 1%, rgb(252, 181, 204) 65%, white);
 }
 .aboutSection {
     width: 100%;
@@ -136,7 +136,16 @@
     width: clamp(200px, 20%, 650px);
 }
 
-
+.form .above-h1 {
+    position: relative;
+    bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+}
 
 @keyframes slide {
     0% {transform: translate(0, 0);}
@@ -161,6 +170,9 @@
         }
         .reviste {
             width: 30%;
+        }
+        .above-h1 {
+            font-size: 1.3em;
         }
     }
 
