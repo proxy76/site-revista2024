@@ -51,7 +51,7 @@ export default function About() {
                         În istoria CNNG  există o tradiție în editarea de reviste: <b>Ramuri</b> (1942), <b>Începuturi</b> (1943), <b>Încercări</b> (1968-1970), <b>Ani de ucenicie</b> (1974), <b>Caiet de informare matematică</b> (1979), <b>Năzuințe</b> (1985), <b>Columna</b> (1991), <b>Universul liceenilor</b> (1996). 
                         <br></br>
                         <div style={{fontSize: 20}}>&#x2022;</div>
-                        Pentru foștii elevi care visau să ajungă arhitecți, avocați, informaticieni, medici, profesori, ingineri, chiar ziariști idealul s-a împlinit, iar revista a reprezentat începutul autostrăzii maturității.
+                        Pentru foștii elevi care visau să ajungă arhitecți, avocați, informaticieni, medici, profesori, ingineri sau chiar ziariști, idealul s-a împlinit, iar revista a reprezentat începutul autostrăzii maturității.
                      </p>
 
                     {/* <div className="carusel">
