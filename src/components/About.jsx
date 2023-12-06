@@ -47,7 +47,12 @@ export default function About() {
                 <motion.div ref={targetRef} style={{opacity, scale}} className="about-text">
                     <h1>DESPRE</h1>
 
-                    <p>"Perspective" oferă o călătorie captivantă prin gândurile și visurile elevilor, îmbogățind în acest fel comunitatea cu o panoramă vibrantă a imaginației mulțimii elevilor din Colegiul Național "Nicolae Grigorescu". </p>
+                    <p>
+                        În istoria CNNG  există o tradiție în editarea de reviste: <b>Ramuri</b> (1942), <b>Începuturi</b> (1943), <b>Încercări</b> (1968-1970), <b>Ani de ucenicie</b> (1974), <b>Caiet de informare matematică</b> (1979), <b>Năzuințe</b> (1985), <b>Columna</b> (1991), <b>Universul liceenilor</b> (1996). 
+                        <br></br>
+                        <div style={{fontSize: 20}}>&#x2022;</div>
+                        În decembrie 2001,  câțiva elevi din CNNG au redactat primul număr al revistei <b>Perspective</b>. În 2024 va apărea numărul 27. 
+                     </p>
 
                     {/* <div className="carusel">
                         <span>Privire generală &#x2022; Fel particular de a vedea lucrurile &#x2022; Puncte de vedere &#x2022; Ceea ce se întrevede ca fiind posibil în viitor &#x2022; Anul 2001 - apare primul număr &#x2022; Anul 2024 - va apărea numărul 27</span>
