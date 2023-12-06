@@ -68,7 +68,7 @@ export default function About() {
                     //ref={targetRef}
                     //style={{scale}}
                     src="./coperta.png" alt="" />
-                    <a href='/Carte4.pdf' className="regBtn" download="revista2023.pdf">Descărcați revista în varianta digitală</a>
+                    <a href='./RevistaPerspective2023.pdf' className="regBtn" download="RevistaPerspective2023.pdf">Descărcați revista în varianta digitală</a>
                 </motion.div>
             </div>
             
