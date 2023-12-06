@@ -66,6 +66,12 @@
     }
 }
 
+.form {
+    .reviste {
+        width: 60%;
+    }
+}
+
 .revista-container, .form {
     padding-top: 50px;
     display: flex;
@@ -152,6 +158,9 @@
     .form {
         img {
             width: 15%;
+        }
+        .reviste {
+            width: 30%;
         }
     }
 

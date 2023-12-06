@@ -49,9 +49,9 @@ export default function About() {
 
                     <p>"Perspective" oferă o călătorie captivantă prin gândurile și visurile elevilor, îmbogățind în acest fel comunitatea cu o panoramă vibrantă a imaginației mulțimii elevilor din Colegiul Național "Nicolae Grigorescu". </p>
 
-                    <div className="carusel">
+                    {/* <div className="carusel">
                         <span>Privire generală &#x2022; Fel particular de a vedea lucrurile &#x2022; Puncte de vedere &#x2022; Ceea ce se întrevede ca fiind posibil în viitor &#x2022; Anul 2001 - apare primul număr &#x2022; Anul 2024 - va apărea numărul 27</span>
-                    </div>
+                    </div> */}
 
                     
                 </motion.div>
